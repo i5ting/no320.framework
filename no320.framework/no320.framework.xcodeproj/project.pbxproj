@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		257A9CC017A9635200F8E6C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9CBF17A9635200F8E6C3 /* Foundation.framework */; };
+		257A9CC517A9635200F8E6C3 /* no320_framework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 257A9CC417A9635200F8E6C3 /* no320_framework.h */; };
+		257A9CC717A9635200F8E6C3 /* no320_framework.m in Sources */ = {isa = PBXBuildFile; fileRef = 257A9CC617A9635200F8E6C3 /* no320_framework.m */; };
+		257A9CCF17A9635200F8E6C3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9CCE17A9635200F8E6C3 /* SenTestingKit.framework */; };
+		257A9CD117A9635200F8E6C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9CD017A9635200F8E6C3 /* UIKit.framework */; };
+		257A9CD217A9635200F8E6C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9CBF17A9635200F8E6C3 /* Foundation.framework */; };
+		257A9CD517A9635200F8E6C3 /* libno320.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9CBC17A9635200F8E6C3 /* libno320.framework.a */; };
+		257A9CDB17A9635200F8E6C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 257A9CD917A9635200F8E6C3 /* InfoPlist.strings */; };
+		257A9CDE17A9635200F8E6C3 /* no320_frameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 257A9CDD17A9635200F8E6C3 /* no320_frameworkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		257A9CD317A9635200F8E6C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 257A9CB317A9635200F8E6C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 257A9CBB17A9635200F8E6C3;
+			remoteInfo = no320.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		257A9CBA17A9635200F8E6C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				257A9CC517A9635200F8E6C3 /* no320_framework.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		257A9CBC17A9635200F8E6C3 /* libno320.framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libno320.framework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		257A9CBF17A9635200F8E6C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		257A9CC317A9635200F8E6C3 /* no320.framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "no320.framework-Prefix.pch"; sourceTree = "<group>"; };
+		257A9CC417A9635200F8E6C3 /* no320_framework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = no320_framework.h; sourceTree = "<group>"; };
+		257A9CC617A9635200F8E6C3 /* no320_framework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = no320_framework.m; sourceTree = "<group>"; };
+		257A9CCD17A9635200F8E6C3 /* no320.frameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = no320.frameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		257A9CCE17A9635200F8E6C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		257A9CD017A9635200F8E6C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		257A9CD817A9635200F8E6C3 /* no320.frameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "no320.frameworkTests-Info.plist"; sourceTree = "<group>"; };
+		257A9CDA17A9635200F8E6C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		257A9CDC17A9635200F8E6C3 /* no320_frameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = no320_frameworkTests.h; sourceTree = "<group>"; };
+		257A9CDD17A9635200F8E6C3 /* no320_frameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = no320_frameworkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		257A9CB917A9635200F8E6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257A9CC017A9635200F8E6C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257A9CC917A9635200F8E6C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257A9CCF17A9635200F8E6C3 /* SenTestingKit.framework in Frameworks */,
+				257A9CD117A9635200F8E6C3 /* UIKit.framework in Frameworks */,
+				257A9CD217A9635200F8E6C3 /* Foundation.framework in Frameworks */,
+				257A9CD517A9635200F8E6C3 /* libno320.framework.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257A9CB117A9635200F8E6C3 = {
+			isa = PBXGroup;
+			children = (
+				257A9CC117A9635200F8E6C3 /* no320.framework */,
+				257A9CD617A9635200F8E6C3 /* no320.frameworkTests */,
+				257A9CBE17A9635200F8E6C3 /* Frameworks */,
+				257A9CBD17A9635200F8E6C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		257A9CBD17A9635200F8E6C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				257A9CBC17A9635200F8E6C3 /* libno320.framework.a */,
+				257A9CCD17A9635200F8E6C3 /* no320.frameworkTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		257A9CBE17A9635200F8E6C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				257A9CBF17A9635200F8E6C3 /* Foundation.framework */,
+				257A9CCE17A9635200F8E6C3 /* SenTestingKit.framework */,
+				257A9CD017A9635200F8E6C3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		257A9CC117A9635200F8E6C3 /* no320.framework */ = {
+			isa = PBXGroup;
+			children = (
+				257A9CC417A9635200F8E6C3 /* no320_framework.h */,
+				257A9CC617A9635200F8E6C3 /* no320_framework.m */,
+				257A9CC217A9635200F8E6C3 /* Supporting Files */,
+			);
+			path = no320.framework;
+			sourceTree = "<group>";
+		};
+		257A9CC217A9635200F8E6C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				257A9CC317A9635200F8E6C3 /* no320.framework-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		257A9CD617A9635200F8E6C3 /* no320.frameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				257A9CDC17A9635200F8E6C3 /* no320_frameworkTests.h */,
+				257A9CDD17A9635200F8E6C3 /* no320_frameworkTests.m */,
+				257A9CD717A9635200F8E6C3 /* Supporting Files */,
+			);
+			path = no320.frameworkTests;
+			sourceTree = "<group>";
+		};
+		257A9CD717A9635200F8E6C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				257A9CD817A9635200F8E6C3 /* no320.frameworkTests-Info.plist */,
+				257A9CD917A9635200F8E6C3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		257A9CBB17A9635200F8E6C3 /* no320.framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257A9CE117A9635200F8E6C3 /* Build configuration list for PBXNativeTarget "no320.framework" */;
+			buildPhases = (
+				257A9CB817A9635200F8E6C3 /* Sources */,
+				257A9CB917A9635200F8E6C3 /* Frameworks */,
+				257A9CBA17A9635200F8E6C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = no320.framework;
+			productName = no320.framework;
+			productReference = 257A9CBC17A9635200F8E6C3 /* libno320.framework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		257A9CCC17A9635200F8E6C3 /* no320.frameworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 257A9CE417A9635200F8E6C3 /* Build configuration list for PBXNativeTarget "no320.frameworkTests" */;
+			buildPhases = (
+				257A9CC817A9635200F8E6C3 /* Sources */,
+				257A9CC917A9635200F8E6C3 /* Frameworks */,
+				257A9CCA17A9635200F8E6C3 /* Resources */,
+				257A9CCB17A9635200F8E6C3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				257A9CD417A9635200F8E6C3 /* PBXTargetDependency */,
+			);
+			name = no320.frameworkTests;
+			productName = no320.frameworkTests;
+			productReference = 257A9CCD17A9635200F8E6C3 /* no320.frameworkTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		257A9CB317A9635200F8E6C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "sang alfred";
+			};
+			buildConfigurationList = 257A9CB617A9635200F8E6C3 /* Build configuration list for PBXProject "no320.framework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 257A9CB117A9635200F8E6C3;
+			productRefGroup = 257A9CBD17A9635200F8E6C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				257A9CBB17A9635200F8E6C3 /* no320.framework */,
+				257A9CCC17A9635200F8E6C3 /* no320.frameworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		257A9CCA17A9635200F8E6C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257A9CDB17A9635200F8E6C3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		257A9CCB17A9635200F8E6C3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		257A9CB817A9635200F8E6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257A9CC717A9635200F8E6C3 /* no320_framework.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		257A9CC817A9635200F8E6C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				257A9CDE17A9635200F8E6C3 /* no320_frameworkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		257A9CD417A9635200F8E6C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 257A9CBB17A9635200F8E6C3 /* no320.framework */;
+			targetProxy = 257A9CD317A9635200F8E6C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		257A9CD917A9635200F8E6C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				257A9CDA17A9635200F8E6C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		257A9CDF17A9635200F8E6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		257A9CE017A9635200F8E6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		257A9CE217A9635200F8E6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/no320_framework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "no320.framework/no320.framework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		257A9CE317A9635200F8E6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/no320_framework.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "no320.framework/no320.framework-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		257A9CE517A9635200F8E6C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "no320.framework/no320.framework-Prefix.pch";
+				INFOPLIST_FILE = "no320.frameworkTests/no320.frameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		257A9CE617A9635200F8E6C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "no320.framework/no320.framework-Prefix.pch";
+				INFOPLIST_FILE = "no320.frameworkTests/no320.frameworkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		257A9CB617A9635200F8E6C3 /* Build configuration list for PBXProject "no320.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257A9CDF17A9635200F8E6C3 /* Debug */,
+				257A9CE017A9635200F8E6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		257A9CE117A9635200F8E6C3 /* Build configuration list for PBXNativeTarget "no320.framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257A9CE217A9635200F8E6C3 /* Debug */,
+				257A9CE317A9635200F8E6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		257A9CE417A9635200F8E6C3 /* Build configuration list for PBXNativeTarget "no320.frameworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				257A9CE517A9635200F8E6C3 /* Debug */,
+				257A9CE617A9635200F8E6C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 257A9CB317A9635200F8E6C3 /* Project object */;
+}
