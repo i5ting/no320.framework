@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2517AFB017AA089500E043B1 /* SQLiteDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2517AFAF17AA089500E043B1 /* SQLiteDatabase.m */; };
+		2517AFB117AA089500E043B1 /* SQLiteDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2517AFAF17AA089500E043B1 /* SQLiteDatabase.m */; };
+		2517AFB817AA0D7C00E043B1 /* CommentsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2517AFB717AA0D7C00E043B1 /* CommentsDataSource.m */; };
 		257A9CC017A9635200F8E6C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9CBF17A9635200F8E6C3 /* Foundation.framework */; };
 		257A9CC517A9635200F8E6C3 /* no320_framework.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 257A9CC417A9635200F8E6C3 /* no320_framework.h */; };
 		257A9CC717A9635200F8E6C3 /* no320_framework.m in Sources */ = {isa = PBXBuildFile; fileRef = 257A9CC617A9635200F8E6C3 /* no320_framework.m */; };
 		257A9CCF17A9635200F8E6C3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9CCE17A9635200F8E6C3 /* SenTestingKit.framework */; };
-		257A9CD117A9635200F8E6C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9CD017A9635200F8E6C3 /* UIKit.framework */; };
 		257A9CD217A9635200F8E6C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9CBF17A9635200F8E6C3 /* Foundation.framework */; };
 		257A9CD517A9635200F8E6C3 /* libno320.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9CBC17A9635200F8E6C3 /* libno320.framework.a */; };
 		257A9CDB17A9635200F8E6C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 257A9CD917A9635200F8E6C3 /* InfoPlist.strings */; };
 		257A9CDE17A9635200F8E6C3 /* no320_frameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 257A9CDD17A9635200F8E6C3 /* no320_frameworkTests.m */; };
 		257A9D0117A98E7E00F8E6C3 /* benchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 257A9CFE17A98E7E00F8E6C3 /* benchmark.m */; };
-		257A9D0217A98E7E00F8E6C3 /* benchmark.m in Sources */ = {isa = PBXBuildFile; fileRef = 257A9CFE17A98E7E00F8E6C3 /* benchmark.m */; };
 		257A9D0617A9903900F8E6C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9D0517A9903900F8E6C3 /* CoreGraphics.framework */; };
 		25F1990317A9E10B0008F31E /* .gitmodules in Resources */ = {isa = PBXBuildFile; fileRef = 25F198DA17A9E10B0008F31E /* .gitmodules */; };
 		25F1990417A9E10B0008F31E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 25F198DC17A9E10B0008F31E /* .gitignore */; };
@@ -49,6 +50,11 @@
 		25F1992017A9E10B0008F31E /* SQLiteOpenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F198FE17A9E10B0008F31E /* SQLiteOpenHelper.m */; };
 		25F1992117A9E10B0008F31E /* SQLiteOpenHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F198FE17A9E10B0008F31E /* SQLiteOpenHelper.m */; };
 		25F1992917A9E2FF0008F31E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 25F1992817A9E2FF0008F31E /* README.md */; };
+		25F1992B17A9E40C0008F31E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F1992A17A9E40C0008F31E /* libsqlite3.dylib */; };
+		25F1992D17A9E4360008F31E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F1992C17A9E4360008F31E /* UIKit.framework */; };
+		25F1992E17A9E4410008F31E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 257A9D0517A9903900F8E6C3 /* CoreGraphics.framework */; };
+		25F1992F17A9E4460008F31E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F1992A17A9E40C0008F31E /* libsqlite3.dylib */; };
+		25F1993317A9E7530008F31E /* MySQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F1993217A9E7530008F31E /* MySQLiteHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +95,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2517AFAE17AA089500E043B1 /* SQLiteDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteDatabase.h; sourceTree = "<group>"; };
+		2517AFAF17AA089500E043B1 /* SQLiteDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteDatabase.m; sourceTree = "<group>"; };
+		2517AFB617AA0D7C00E043B1 /* CommentsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsDataSource.h; sourceTree = "<group>"; };
+		2517AFB717AA0D7C00E043B1 /* CommentsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsDataSource.m; sourceTree = "<group>"; };
 		257A9CBC17A9635200F8E6C3 /* libno320.framework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libno320.framework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		257A9CBF17A9635200F8E6C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		257A9CC317A9635200F8E6C3 /* no320.framework-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "no320.framework-Prefix.pch"; sourceTree = "<group>"; };
@@ -96,7 +106,6 @@
 		257A9CC617A9635200F8E6C3 /* no320_framework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = no320_framework.m; sourceTree = "<group>"; };
 		257A9CCD17A9635200F8E6C3 /* no320.frameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = no320.frameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		257A9CCE17A9635200F8E6C3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		257A9CD017A9635200F8E6C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		257A9CD817A9635200F8E6C3 /* no320.frameworkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "no320.frameworkTests-Info.plist"; sourceTree = "<group>"; };
 		257A9CDA17A9635200F8E6C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		257A9CDC17A9635200F8E6C3 /* no320_frameworkTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = no320_frameworkTests.h; sourceTree = "<group>"; };
@@ -137,6 +146,10 @@
 		25F198FD17A9E10B0008F31E /* SQLiteOpenHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteOpenHelper.h; sourceTree = "<group>"; };
 		25F198FE17A9E10B0008F31E /* SQLiteOpenHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteOpenHelper.m; sourceTree = "<group>"; };
 		25F1992817A9E2FF0008F31E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		25F1992A17A9E40C0008F31E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		25F1992C17A9E4360008F31E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		25F1993117A9E7530008F31E /* MySQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySQLiteHelper.h; sourceTree = "<group>"; };
+		25F1993217A9E7530008F31E /* MySQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySQLiteHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +157,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F1992B17A9E40C0008F31E /* libsqlite3.dylib in Frameworks */,
 				257A9D0617A9903900F8E6C3 /* CoreGraphics.framework in Frameworks */,
 				257A9CC017A9635200F8E6C3 /* Foundation.framework in Frameworks */,
 			);
@@ -153,8 +167,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F1992F17A9E4460008F31E /* libsqlite3.dylib in Frameworks */,
+				25F1992E17A9E4410008F31E /* CoreGraphics.framework in Frameworks */,
+				25F1992D17A9E4360008F31E /* UIKit.framework in Frameworks */,
 				257A9CCF17A9635200F8E6C3 /* SenTestingKit.framework in Frameworks */,
-				257A9CD117A9635200F8E6C3 /* UIKit.framework in Frameworks */,
 				257A9CD217A9635200F8E6C3 /* Foundation.framework in Frameworks */,
 				257A9CD517A9635200F8E6C3 /* libno320.framework.a in Frameworks */,
 			);
@@ -167,7 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				25F1992817A9E2FF0008F31E /* README.md */,
-				257A9D0517A9903900F8E6C3 /* CoreGraphics.framework */,
 				257A9D0417A98E8600F8E6C3 /* test */,
 				257A9CFB17A98E7E00F8E6C3 /* vendor */,
 				257A9CF517A98E7100F8E6C3 /* src */,
@@ -190,9 +205,11 @@
 		257A9CBE17A9635200F8E6C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25F1992C17A9E4360008F31E /* UIKit.framework */,
+				25F1992A17A9E40C0008F31E /* libsqlite3.dylib */,
+				257A9D0517A9903900F8E6C3 /* CoreGraphics.framework */,
 				257A9CBF17A9635200F8E6C3 /* Foundation.framework */,
 				257A9CCE17A9635200F8E6C3 /* SenTestingKit.framework */,
-				257A9CD017A9635200F8E6C3 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -305,6 +322,7 @@
 		257A9D0417A98E8600F8E6C3 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				25F1993017A9E73E0008F31E /* database */,
 			);
 			name = test;
 			path = ../test;
@@ -324,6 +342,8 @@
 				25F198FC17A9E10B0008F31E /* README.md */,
 				25F198FD17A9E10B0008F31E /* SQLiteOpenHelper.h */,
 				25F198FE17A9E10B0008F31E /* SQLiteOpenHelper.m */,
+				2517AFAE17AA089500E043B1 /* SQLiteDatabase.h */,
+				2517AFAF17AA089500E043B1 /* SQLiteDatabase.m */,
 			);
 			path = db;
 			sourceTree = "<group>";
@@ -379,6 +399,17 @@
 				25F198F517A9E10B0008F31E /* FMResultSet.m */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		25F1993017A9E73E0008F31E /* database */ = {
+			isa = PBXGroup;
+			children = (
+				25F1993117A9E7530008F31E /* MySQLiteHelper.h */,
+				25F1993217A9E7530008F31E /* MySQLiteHelper.m */,
+				2517AFB617AA0D7C00E043B1 /* CommentsDataSource.h */,
+				2517AFB717AA0D7C00E043B1 /* CommentsDataSource.m */,
+			);
+			path = database;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -524,6 +555,7 @@
 				25F1991B17A9E10B0008F31E /* no320_db_base_context.m in Sources */,
 				25F1991D17A9E10B0008F31E /* no320_db_base_table_model.m in Sources */,
 				25F1992017A9E10B0008F31E /* SQLiteOpenHelper.m in Sources */,
+				2517AFB017AA089500E043B1 /* SQLiteDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +564,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				257A9CDE17A9635200F8E6C3 /* no320_frameworkTests.m in Sources */,
-				257A9D0217A98E7E00F8E6C3 /* benchmark.m in Sources */,
 				25F1990817A9E10B0008F31E /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
 				25F1990E17A9E10B0008F31E /* FMDatabase.m in Sources */,
 				25F1991017A9E10B0008F31E /* FMDatabaseAdditions.m in Sources */,
@@ -543,6 +574,9 @@
 				25F1991C17A9E10B0008F31E /* no320_db_base_context.m in Sources */,
 				25F1991E17A9E10B0008F31E /* no320_db_base_table_model.m in Sources */,
 				25F1992117A9E10B0008F31E /* SQLiteOpenHelper.m in Sources */,
+				25F1993317A9E7530008F31E /* MySQLiteHelper.m in Sources */,
+				2517AFB117AA089500E043B1 /* SQLiteDatabase.m in Sources */,
+				2517AFB817AA0D7C00E043B1 /* CommentsDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,7 +623,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -609,7 +643,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
