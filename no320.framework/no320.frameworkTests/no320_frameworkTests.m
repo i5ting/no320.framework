@@ -7,12 +7,15 @@
 //
 
 #import "no320_frameworkTests.h"
+#import "ios_test_unit.h"
 
 @implementation no320_frameworkTests
 
 - (void)setUp
 {
     [super setUp];
+    
+    assert_fail(NO,@"ddd");
     
     // Set-up code here.
 }
