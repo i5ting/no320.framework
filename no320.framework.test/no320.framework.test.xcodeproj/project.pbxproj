@@ -16,8 +16,29 @@
 		2536B71017AA11C900DAA380 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2536B70F17AA11C900DAA380 /* Default@2x.png */; };
 		2536B71217AA11C900DAA380 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2536B71117AA11C900DAA380 /* Default-568h@2x.png */; };
 		2536B71817AA133800DAA380 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2536B71717AA133800DAA380 /* QuartzCore.framework */; };
+		2538A60017AB125400EDC2C3 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2538A5FF17AB125400EDC2C3 /* libsqlite3.dylib */; };
 		2563706A17AAA28A00943C1A /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2563706917AAA28A00943C1A /* GHUnitIOS.framework */; };
+		25E11E0817AD86A100E48416 /* libno320.framework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E11E0117AD866100E48416 /* libno320.framework.a */; };
+		25E11E0E17AD876C00E48416 /* CommentsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E11E0B17AD876C00E48416 /* CommentsDataSource.m */; };
+		25E11E0F17AD876C00E48416 /* MySQLiteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E11E0D17AD876C00E48416 /* MySQLiteHelper.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25E11E0017AD866100E48416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E11DF417AD866100E48416 /* no320.framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 257A9CBC17A9635200F8E6C3;
+			remoteInfo = no320.framework;
+		};
+		25E11E0617AD867800E48416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25E11DF417AD866100E48416 /* no320.framework.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 257A9CBB17A9635200F8E6C3;
+			remoteInfo = no320.framework;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2536B6D817AA10B300DAA380 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -32,7 +53,13 @@
 		2536B70F17AA11C900DAA380 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		2536B71117AA11C900DAA380 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2536B71717AA133800DAA380 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2538A5FF17AB125400EDC2C3 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		2563706917AAA28A00943C1A /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = vendor/GHUnitIOS.framework; sourceTree = "<group>"; };
+		25E11DF417AD866100E48416 /* no320.framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = no320.framework.xcodeproj; path = ../../no320.framework/no320.framework.xcodeproj; sourceTree = "<group>"; };
+		25E11E0A17AD876C00E48416 /* CommentsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsDataSource.h; sourceTree = "<group>"; };
+		25E11E0B17AD876C00E48416 /* CommentsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsDataSource.m; sourceTree = "<group>"; };
+		25E11E0C17AD876C00E48416 /* MySQLiteHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySQLiteHelper.h; sourceTree = "<group>"; };
+		25E11E0D17AD876C00E48416 /* MySQLiteHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySQLiteHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25E11E0817AD86A100E48416 /* libno320.framework.a in Frameworks */,
+				2538A60017AB125400EDC2C3 /* libsqlite3.dylib in Frameworks */,
 				2563706A17AAA28A00943C1A /* GHUnitIOS.framework in Frameworks */,
 				2536B71817AA133800DAA380 /* QuartzCore.framework in Frameworks */,
 				2536B6FE17AA11C800DAA380 /* UIKit.framework in Frameworks */,
@@ -54,6 +83,8 @@
 		2536B6C917AA10B300DAA380 = {
 			isa = PBXGroup;
 			children = (
+				2538A5FF17AB125400EDC2C3 /* libsqlite3.dylib */,
+				2538A5E417AB0CFE00EDC2C3 /* src */,
 				2536B70117AA11C800DAA380 /* test */,
 				2536B6D717AA10B300DAA380 /* Frameworks */,
 				2536B6D517AA10B300DAA380 /* Products */,
@@ -83,6 +114,7 @@
 		2536B70117AA11C800DAA380 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				25E11DF417AD866100E48416 /* no320.framework.xcodeproj */,
 				2536B70217AA11C800DAA380 /* Supporting Files */,
 			);
 			path = test;
@@ -102,6 +134,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2538A5E417AB0CFE00EDC2C3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				25E11E1017AD879300E48416 /* demo */,
+				25E11E0917AD876C00E48416 /* database */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		25E11DF517AD866100E48416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25E11E0117AD866100E48416 /* libno320.framework.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25E11E0917AD876C00E48416 /* database */ = {
+			isa = PBXGroup;
+			children = (
+				25E11E0A17AD876C00E48416 /* CommentsDataSource.h */,
+				25E11E0B17AD876C00E48416 /* CommentsDataSource.m */,
+				25E11E0C17AD876C00E48416 /* MySQLiteHelper.h */,
+				25E11E0D17AD876C00E48416 /* MySQLiteHelper.m */,
+			);
+			path = database;
+			sourceTree = "<group>";
+		};
+		25E11E1017AD879300E48416 /* demo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = demo;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,6 +183,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				25E11E0717AD867800E48416 /* PBXTargetDependency */,
 			);
 			name = test;
 			productName = test;
@@ -141,12 +209,28 @@
 			mainGroup = 2536B6C917AA10B300DAA380;
 			productRefGroup = 2536B6D517AA10B300DAA380 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 25E11DF517AD866100E48416 /* Products */;
+					ProjectRef = 25E11DF417AD866100E48416 /* no320.framework.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2536B6FB17AA11C800DAA380 /* test */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		25E11E0117AD866100E48416 /* libno320.framework.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libno320.framework.a;
+			remoteRef = 25E11E0017AD866100E48416 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2536B6FA17AA11C800DAA380 /* Resources */ = {
@@ -168,10 +252,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				2536B70817AA11C800DAA380 /* main.m in Sources */,
+				25E11E0E17AD876C00E48416 /* CommentsDataSource.m in Sources */,
+				25E11E0F17AD876C00E48416 /* MySQLiteHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25E11E0717AD867800E48416 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = no320.framework;
+			targetProxy = 25E11E0617AD867800E48416 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2536B70417AA11C800DAA380 /* InfoPlist.strings */ = {
@@ -207,7 +301,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -228,7 +322,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

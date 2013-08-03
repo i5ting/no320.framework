@@ -12,8 +12,8 @@
 
 @implementation CommentsDataSource
 {
-    SQLiteDatabase *database;
-    MySQLiteHelper *dbHelper;
+//    SQLiteDatabase *database;
+//    MySQLiteHelper *dbHelper;
 }
 
 @end

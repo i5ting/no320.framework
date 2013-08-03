@@ -9,6 +9,7 @@
 #import <no320.framework/no320_framework.h>
 
 
-@interface MySQLiteHelper : SQLiteOpenHelper
+@interface MySQLiteHelper : NSObject
+
 
 @end

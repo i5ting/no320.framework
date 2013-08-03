@@ -53,14 +53,14 @@
     return self;
 }
 
--(id)init:(no320_db_base_context*)context
-{
-    if (self = [super init]) {
-        
-        
-    }
-    
-    return self;
-}
+//-(id)init:(no320_db_base_context*)context
+//{
+//    if (self = [super init]) {
+//        
+//        
+//    }
+//    
+//    return self;
+//}
 
 @end
